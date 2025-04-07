@@ -1,5 +1,6 @@
 org 00h
 
+clr p3.1  ;p3.1 is txd pin(active low)
 mov tmod, #02h
 ;BAUD RATE
 ;1200 -> -24
